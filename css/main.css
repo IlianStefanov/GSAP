@@ -64,6 +64,7 @@ body {
     height: 100%;
     transition: background-color 0.4s linear;
 }
+body.project00 {background-color: #222222;}
 body.project01 {background-color: #4d5126;}
 body.project02 {background-color: #a8b183;}
 body.project03 {background-color: #988685;}
@@ -127,6 +128,17 @@ h1, h2, h3, h4 {
     height: 224px;
     margin: 0 auto;
     z-index: 5;
+}
+
+.loader {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    transform: rotate(-90deg);
+    opacity: 0.7;
 }
 .project-image img {
     position: relative;
