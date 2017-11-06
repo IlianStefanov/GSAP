@@ -62,12 +62,14 @@ body {
     color: #222;
     overflow-x: hidden;
     height: 100%;
+    -webkit-transition: background-color 0.4s linear;
     transition: background-color 0.4s linear;
 }
+body.project00 {background-color: #222222;}
 body.project01 {background-color: #4d5126;}
 body.project02 {background-color: #a8b183;}
 body.project03 {background-color: #988685;}
-
+ 
 h1, h2, h3, h4 {
     font-weight: 700;
 }
@@ -75,6 +77,11 @@ h1, h2, h3, h4 {
 .wrapper {
     width: 90%;
     margin: 0 auto;
+}
+
+.projects {
+    visibility: hidden;
+    opacity: 0;
 }
 
 /* =Project Slides */
@@ -85,14 +92,14 @@ h1, h2, h3, h4 {
     left: 0;
     bottom: 0;
     right: 0;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 .project-image,
 .project-image img,
 .project-image:before,
 .project-image:after {
-    -webkit-border-radius: 100%;
-            border-radius: 100%;
+    border-radius: 100%;
 }
 .project-image:before {
     content: '';
@@ -123,6 +130,18 @@ h1, h2, h3, h4 {
     margin: 0 auto;
     z-index: 5;
 }
+
+.loader {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0.7;
+}
 .project-image img {
     position: relative;
     z-index: 4;
@@ -147,6 +166,7 @@ h1, h2, h3, h4 {
     top: 70%;
     left: 50%;
     z-index: 1;
+    -webkit-transform: translate(-50%, -100%);
     transform: translate(-50%, -100%);
 } 
 .pixel {
@@ -156,8 +176,7 @@ h1, h2, h3, h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-border-radius: 100%;
-            border-radius: 100%;
+    border-radius: 100%;
     z-index: 3;
 }
 .pixel01 {left: 100px; top: -130px}
@@ -190,6 +209,67 @@ h1, h2, h3, h4 {
     position: relative;
 } 
 
+
+/* add styles for other two projects and intro */
+/* =GameBoy */
+.project02 .project-title {
+    color: #282c1b;
+}
+.project02 .project-subtitle {
+    color: rgba(40,44,27,0.4);
+}
+.project02 .project-image:before {
+    background-color: rgba(40,44,27,0.8);
+}
+.project02 .project-image:after {
+    background-color: rgba(89,96,117,0.6);
+}
+.project02 .pixel {
+    background-color: rgba(89,95,117,0.1);
+}
+.project02 .sizeS {background-color: rgba(89,95,117,0.1);}
+.project02 .sizeL {background-color: rgba(89,95,117,0.3);}
+.project02 .sizeXL {background-color: rgba(89, 95,117,0.6);}
+ 
+/* =SVG Christmas */
+.project03 .project-title {
+    color: #473432;
+}
+.project03 .project-subtitle {
+    color: rgba(71,52,50,0.3);
+}
+.project03 .project-image:before {
+    background-color: rgba(254,182,0,0.7);
+}
+.project03 .project-image:after {
+    background-color: rgba(234,93,71,0.6);
+}
+.project03 .pixel {
+    background-color: rgba(71,52,50,0.1);
+}
+.project03 .sizeS {background-color: rgba(71,52,50,0.1);}
+.project03 .sizeL {background-color: rgba(71,52,50,0.3);}
+.project03 .sizeXL {background-color: rgba(71,52,50,0.6);}
+ 
+/* =Intro */
+.project00 .project-title {
+    color: #fdfac6;
+}
+.project00 .project-subtitle {
+    color: rgba(253,250,198,0.3);
+}
+.project00 .project-image:before {
+    background-color: rgba(252,21,62,0.7);
+}
+.project00 .project-image:after {
+    background-color: rgba(164,16,58,0.6);
+}
+.project00 .pixel {
+    background-color: rgba(253,250,198,0.1);
+}
+.project00 .sizeS {background-color: rgba(253,250,198,0.1);}
+.project00 .sizeL {background-color: rgba(253,250,198,0.3);}
+.project00 .sizeXL {background-color: rgba(253,250,198,0.6);}
 a.button {
     text-decoration: none;
     width: 150px;
@@ -200,6 +280,7 @@ a.button {
     position: absolute;
     top: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 .bp {
@@ -244,7 +325,6 @@ a.button {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 }
@@ -307,6 +387,7 @@ a.button {
     *:after {
         background: transparent !important;
         color: #000 !important;
+        -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
