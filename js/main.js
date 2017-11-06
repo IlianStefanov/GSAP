@@ -118,6 +118,8 @@
             tlProjects.resume();
         }
             
+    
+        // UPDATE
     })(jQuery);
 
 
