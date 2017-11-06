@@ -138,7 +138,10 @@ h1, h2, h3, h4 {
     left: 0;
     top: 0;
     z-index: 5;
+<<<<<<< HEAD
     -webkit-transform: rotate(-90deg);
+=======
+>>>>>>> 50c71e2d60f824c56dc0f55feac334fb85417e04
     transform: rotate(-90deg);
     opacity: 0.7;
 }
