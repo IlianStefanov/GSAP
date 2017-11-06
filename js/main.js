@@ -61,7 +61,7 @@
     
         tlProjectLoader
 	    	.to([$projectImageBefore, $projectImageAfter], 0.4, {cssRule:{opacity: '0'}})
-	    	.fromTo($loader, 5, {strokeDasharray: 247, strokeDashoffset: 247}, {strokeDasharray: 247, strokeDashoffset: 0, ease: Power0.easeNone})
+	    	.fromTo($loader, 5, {strokeDasharray: 547, strokeDashoffset: 547}, {strokeDasharray: 547, strokeDashoffset: 0, ease: Power0.easeNone})
 	    	.to($loader, 0.4, {autoAlpha: 0, onComplete: resumeProjects})
 	    	.to([$projectImageBefore, $projectImageAfter], 0.4, {cssRule:{opacity: '1'}}, '-=0.4');
             
