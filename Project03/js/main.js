@@ -11,7 +11,16 @@
         
         SVG Lab – Clear Stage Exercise – 23:09
 	*/
+    //Potential SVG drawing with ScrollMagic
+    var controller = new ScrollMagic.Controller();
+    
+    
 	var $coin = $('#Coin'),
+        $Petr = $('#Petr'),
+        $Smile = $('#smile'),
+        $h1 = $('h1'),
+        $Stage = $('#stage'),
+        $MainMask = $('#MainMask'),
         $MainBulb = $('#MainBulb'),
         $Liquids = $('.liquid'),
         $Liquid01 = $('#Liquid1'),
@@ -33,6 +42,17 @@
         $bulb1 = $('#Bulb1 .bulb'),
         $bulb2 = $('#Bulb2 .bulb'),
         $bulb3 = $('#Bulb3 .bulb'),
+        $meterBcg = $('#meterBcg'),
+        $meterStroke = $('#meterStroke'),
+        $part2light = $('#Part2 .light'),
+        $part2lightLeft = $('#Part2 .light-left'),
+        $part2lightMid = $('#Part2 .light-mid'),
+        $part2lightRight = $('#Part2 .light-right'),
+        $PrinterLightsTop = $('#PrinterLIghtTop, #PrinterLIghtTop_1_'),
+        $PrinterLightsBottom = $('#PrinterLIghtBottom, #PrinterLIghtBottom_1_'),
+        $mainLight = $('#MainLight'),
+        $paper = $('#Paper'),
+        $slider = $('#Slider'),
         mainTl = new TimelineMax();
     
     
@@ -49,18 +69,35 @@
             .set($coin, {x: '-90px', y:'120px', scale: 0.5, transformOrigin: 'center center'})
             .set($MainBulb, {fill: '#ffffff'})
             .set($Liquids, {stroke: '#ffffff'})
+            .set($Petr, {autoAlpha: 1, x: '1400%' ,scale: 2.5, transformOrigin: 'bottom center'})
+            .set($Stage, {autoAlpha: 0.6})
+            .set($MainMask, {attr: {x: 932}})
             .set($LiquidInsideMask01, {attr: {y: 492}})
             .set($LiquidInsideMask02, {attr: {y: 494}})
             .set($LiquidInsideMask03, {attr: {y: 491}})
             .set($LiquidInsideMask04, {attr: {y: 656}})
 			.set($LiquidInsideMask05, {attr: {y: 654}})
 			.set($LiquidInsideMask06, {attr: {y: 651}})
-			.set($LiquidInsideMask07, {attr: {y: 651}}); /* y value = y + height */
+			.set($LiquidInsideMask07, {attr: {y: 651}})
+            .set($paper, {y: '+=55'}); 
         return clearTl;
     }
 
+
+    function getIntroTl() {
+        var introTl = new TimelineMax();
+        
+        introTl.set($h1, {y: '-=40px'})
+            .set($h1, {y: '-=40px'})
+            .to($Petr, 0.8, {x: '1000%', ease:Power4.easeInOut})
+			.fromTo($h1, 0.5, {x: '-46%', autoAlpha: 0}, {x: '-50%', autoAlpha: 1}, '-=0.4')
+            .fromTo($Smile, 0.4, {scale: 0.4, transformOrigin: 'center center'}, {scale: 1, ease:Power4.easeInOut})
+        return introTl;
+    }
+    
     function init() {
         mainTl.add(clearStage());
+        mainTl.add(getIntroTl(), 'scene-intro');
     } 
     init();
 })(jQuery);

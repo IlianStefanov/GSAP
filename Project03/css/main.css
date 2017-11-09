@@ -25,6 +25,8 @@ hr {
     padding: 0;
 }
 
+
+
 audio,
 canvas,
 iframe,
@@ -92,7 +94,7 @@ h1 {
 
 
 
-h1, #BulbIdea {
+h1, #BulbIdea, #Petr, #Coin, #stage {
     visibility: hidden;
     opacity: 0;
 }
