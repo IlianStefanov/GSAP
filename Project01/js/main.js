@@ -19,17 +19,12 @@
             .to($projectImageAfter, 0.7, {cssRule:{bottom:'6px'}, ease:Linear.easeNone}, '0')
             .to($projectImageAfter, 0.7, {cssRule:{right:'6px'}, ease:Linear.easeNone}, '0.7')
             .to($projectImageAfter, 0.7, {cssRule:{bottom:'-6px'}, ease:Linear.easeNone}, '1.1')
-            .to($projectImageAfter, 0.7, {cssRule:{right:'-6px'}, ease:Linear.easeNone}, '1.5')
-            ;
+            .to($projectImageAfter, 0.7, {cssRule:{right:'-6px'}, ease:Linear.easeNone}, '1.5');
         
         
         //Main Timeline 
         tlProjects = new TimelineMax();
         tlProjects.set($projects, {autoAlpha: 1});
-        
-        
-          
-    
         
         $project.each(function(index, element) {
         var projectClasses = $(this).attr('class').split(' '),
@@ -61,11 +56,7 @@
     
         tlProjectLoader
 	    	.to([$projectImageBefore, $projectImageAfter], 0.4, {cssRule:{opacity: '0'}})
-<<<<<<< HEAD
 	    	.fromTo($loader, 5, {strokeDasharray: 547, strokeDashoffset: 547}, {strokeDasharray: 547, strokeDashoffset: 0, ease: Power0.easeNone})
-=======
-	    	.fromTo($loader, 5, {strokeDasharray: 247, strokeDashoffset: 247}, {strokeDasharray: 247, strokeDashoffset: 0, ease: Power0.easeNone})
->>>>>>> 50c71e2d60f824c56dc0f55feac334fb85417e04
 	    	.to($loader, 0.4, {autoAlpha: 0, onComplete: resumeProjects})
 	    	.to([$projectImageBefore, $projectImageAfter], 0.4, {cssRule:{opacity: '1'}}, '-=0.4');
             
@@ -74,7 +65,7 @@
         tlProject
             .set($(this), {zIndex: 1})
             .set([$projectTitle, $projectSubtitle, $pixel], {autoAlpha: 0})
-            .fromTo($projectImage, 0.4, {autoAlpha: 0, xPercent: '-200'}, {autoAlpha: 1, xPercent: '-10', ease: Power4.easeInOut, onStart: updateClass, onStartParams: [projectClass]})
+            .fromTo($projectImage, 0.4, {autoAlpha: 0, xPercent: '-200'}, {autoAlpha: 1, xPercent: '-10', ease: Power4.easeInOut})
             .add('imageIn')
             .staggerFromTo($pixel, 0.3, {autoAlpha: 0, x: '-=10'}, {autoAlpha: 1, x: '0', ease:Power4.easeInOut}, 0.02, '-=0.2')
     	    .add('pixelsIn')
@@ -93,15 +84,9 @@
             tlProjects.add(tlProject);
         });
         
-<<<<<<< HEAD
-        function updateClass(projectClass){
-		  $('body').attr('class', projectClass);
-	    }
-=======
         function updateClasses(projectClass) {
             $('body').attr('class', projectClass);
         }
->>>>>>> 50c71e2d60f824c56dc0f55feac334fb85417e04
     
         function pauseProjects(projectClass, tlProjectLoader) {
             tlProjects.pause();
@@ -128,6 +113,8 @@
             tlProjects.resume();
         }
             
+    
+        // UPDATE
     })(jQuery);
 
 
