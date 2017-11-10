@@ -15,7 +15,8 @@
     var controller = new ScrollMagic.Controller();
     
     
-	var $coin = $('#Coin'),
+	var $body = $('body'),
+        $coin = $('#Coin'),
         $Petr = $('#Petr'),
         $Smile = $('#smile'),
         $h1 = $('h1'),
@@ -80,6 +81,7 @@
 			.set($LiquidInsideMask06, {attr: {y: 651}})
 			.set($LiquidInsideMask07, {attr: {y: 651}})
             .set($paper, {y: '+=55'}); 
+            
         return clearTl;
     }
 
@@ -89,9 +91,15 @@
         
         introTl.set($h1, {y: '-=40px'})
             .set($h1, {y: '-=40px'})
-            .to($Petr, 0.8, {x: '1000%', ease:Power4.easeInOut})
+            .fromTo($Petr, 0.8, {x: '1400%', autoAlpha: 0}, {x: '1000%', autoAlpha: 1, ease:Power4.easeInOut})
 			.fromTo($h1, 0.5, {x: '-46%', autoAlpha: 0}, {x: '-50%', autoAlpha: 1}, '-=0.4')
-            .fromTo($Smile, 0.4, {scale: 0.4, transformOrigin: 'center center'}, {scale: 1, ease:Power4.easeInOut})
+            .fromTo($Smile, 0.4, {scale: 0.4, transformOrigin: 'center center'}, {scale: 1, ease:Power4.easeInOut}, '+=1.2')
+            .add('zoom-out')
+            .to($Petr, 1, {x: '0%', scale: 1, ease:Power4.easeInOut}, 'zoom-out+=1')
+            .to($h1, 0.5, {autoAlpha: 0}, 'zoom-out+=1')
+            .to($MainMask, 1, {attr: {x: 131}, ease:Power4.easeInOut}, 'zoom-out+=1')
+//            .to($Stage, 1, {autoAlpha: 1}, '-=0.5') 
+            .set($body, {className: '+=is-active'}, 'zoom-out+=1');
         return introTl;
     }
     

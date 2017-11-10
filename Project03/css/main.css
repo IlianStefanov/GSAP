@@ -60,10 +60,15 @@ textarea {
 
 body {
   font: 16px/1.5 'Open Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
-  background-color: #69d1e2;
+  background-color: #ffffff;
   color: #294C67;
   overflow: hidden;
   height: 100%;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+body.is-active {
+    background-color: #69d1e2;
 }
 
 h1, h2, h3, h4 {
