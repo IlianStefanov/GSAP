@@ -17,6 +17,11 @@
     
 	var $body = $('body'),
         $coin = $('#Coin'),
+        path = [{x: -90, y: 120},{x: -45, y: -220},{x: 0, y: 120}],
+        $pointer = $('#pointer'),
+        $BulbIdea = $('#BulbIdea'),
+        $BulbIdeaLight = $('#MainBulb2'),
+        $part1 = $('#Part1'),
         $Petr = $('#Petr'),
         $Smile = $('#smile'),
         $h1 = $('h1'),
@@ -57,12 +62,6 @@
         mainTl = new TimelineMax();
     
     
-    
-    
-    
-    
-    
-    
     function clearStage() {
         var clearTl = new TimelineMax();
         
@@ -80,7 +79,8 @@
 			.set($LiquidInsideMask05, {attr: {y: 654}})
 			.set($LiquidInsideMask06, {attr: {y: 651}})
 			.set($LiquidInsideMask07, {attr: {y: 651}})
-            .set($paper, {y: '+=55'}); 
+            .set($paper, {y: '+=55'})
+            .set($pointer, {rotation: -45, transformOrigin: 'bottom center' }); 
             
         return clearTl;
     }
@@ -99,13 +99,72 @@
             .to($h1, 0.5, {autoAlpha: 0}, 'zoom-out+=1')
             .to($MainMask, 1, {attr: {x: 131}, ease:Power4.easeInOut}, 'zoom-out+=1')
 //            .to($Stage, 1, {autoAlpha: 1}, '-=0.5') 
-            .set($body, {className: '+=is-active'}, 'zoom-out+=1');
+            .set($body, {className: '+=is-active'}, 'zoom-out+=1')
+            .set($h1, {y: '-=60px', text: "This is my GreenSock lab"})
+            .add('text-in')
+            .to($h1, 0.3, {y: '+=20px', autoAlpha: 1, ease:Power4.easeInOut}, 'text-in')
+            .to($h1, 0.2, {y: '+=10px', autoAlpha: 0, ease:Power4.easeInOut}, '+=2.5')
+            .set($h1, {y: '-=30px', text: 'Let\'s get started!!'}, '+=1.5')
+            .to($h1, 0.3, {y: '+=20px', autoAlpha: 1, ease:Power4.easeInOut})
+            .to($h1, 0.2, {y: '+=10px', autoAlpha: 0, ease:Power4.easeInOut}, '+=2')
+            .to($Stage, 0.2, {autoAlpha: 1, ease:Power0.none}, '-=0.2');
         return introTl;
+    }
+    
+    function getIdeaTl() {
+        var ideaTl = new TimelineMax();
+        
+        ideaTl
+            .set($BulbIdea, {autoAlpha: 1, immediateRender: false})
+            .from($BulbIdea, 0.5, {y: '+=40px', ease:Bounce.easeOut})
+            .set($h1, {y: '-=30px', text: 'You have a cool idea'}, '+=1.5')
+            .to($h1, 0.3, {y: '+=20px', autoAlpha: 1, ease:Power4.easeInOut})
+            .to($h1, 0.2, {y: '+=10px', autoAlpha: 0, ease:Power4.easeInOut}, '+=2')
+            .set($h1, {y: '-=30px', text: 'And now whaaat'}, '+=1.5')
+            .fromTo($BulbIdeaLight, 0.3, {fill: '#ffffff'}, {fill: '#73C996', repeat: 3, yoyo: true})
+            .fromTo($BulbIdeaLight, 0.3, {fill: '#ffffff'}, {fill: '#F8876E', repeat: 3, yoyo: true})
+            .fromTo($BulbIdeaLight, 0.8, {fill: '#ffffff'}, {fill: '#F8AD43'})
+            .to($BulbIdea, 0.6, {y: '-=20px', scale:1.1, transformOrigin: 'center bottom', ease:Power4.easeInOut})
+            .to($BulbIdea, 0.1, {y: '+=120px', scale: 0.8, ease:Back.easeIn})
+            //SET COIN 
+            .set($coin, {autoAlpha: 1}, '+=0.3')
+            .to($coin, 6, {rotation: 720, bezier: {curviness: 0.3, values: path}, ease:SlowMo.ease.config(0.9, 0.7, false)})
+            .to($h1, 0.3, {y: '+=20px', autoAlpha: 1, ease:Power4.easeInOut}, '-=5.5')
+            .to($h1, 0.2, {y: '+=10px', autoAlpha: 0, ease:Power4.easeInOut}, '-=3.5')
+            .set($h1, {y: '-=30px', text: 'Let GreenSock do  the rest'}, '-=3.3')
+            .to($h1, 0.3, {y: '+=20px', autoAlpha: 1, ease:Power4.easeInOut}, '-=3..2')
+            .to($h1, 0.2, {y: '+=10px', autoAlpha: 0, ease:Power4.easeInOut}, '-=1.2')
+            .to($part1, 0.06, {rotation: 5, y: '+=5px', x: '+=3px', transformOrigin: 'bottom right', repeat: 5, yoyo: true})
+        return ideaTl;
+    }
+    
+    
+    function machineStartupTl() {
+        var machineStartupTl = new TimelineMax();
+        
+        machineStartupTl
+                        .add('part2-lights')
+                        .to($pointer, 2, {rotation: 20})
+                        .staggerTo($part2lightLeft, 0.1, {fill: '#F8AD43', ease:Power4.easeInOut})
+                        .staggerTo($part2light, 0.1, {fill: '#F8AD43'}, 0.1, 'part2-lights')
+			            .staggerTo($part2light, 0.1, {fill: '#F8876E'}, 0.1, 'part2-lights+=0.5')
+			            .staggerTo($part2light, 0.1, {fill: '#73C996'}, 0.1, 'part2-lights+=1')
+                        .to($meterBcg, 0.2, {fill: '#5AB783'}, 'part2-lights+=1.2')
+                        .to($meterStroke, 0.2, {stroke: '#448962'}, 'part2-lights+=1.2')
+                        .to($slider, 1.2, {x: '-=10px', ease:Power4.easeInOut}, 'part2-lights+=1.4')
+                        .set($bulb1, {fill: '#5AB783'}, 'part2-lights+=2.6')
+                        .set($bulb2, {fill: '#F8876E'}, 'part2-lights+=3')
+                        .set($bulb3, {fill: '#F8AD43'}, 'part2-lights+=3.4');
+        return machineStartupTl;
     }
     
     function init() {
         mainTl.add(clearStage());
         mainTl.add(getIntroTl(), 'scene-intro');
+        mainTl.add(getIdeaTl(), 'scene-idea');
+        mainTl.add(machineStartupTl(), 'scene-machineStartup')
+        mainTl.seek('scene-machineStartup-=3');
+        
     } 
     init();
 })(jQuery);
