@@ -163,7 +163,7 @@
         mainTl.add(getIntroTl(), 'scene-intro');
         mainTl.add(getIdeaTl(), 'scene-idea');
         mainTl.add(machineStartupTl(), 'scene-machineStartup')
-        mainTl.seek('scene-machineStartup-=3');
+//        mainTl.seek('scene-machineStartup-=3');
         
     } 
     init();
