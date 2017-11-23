@@ -280,8 +280,8 @@
         mainTl.add(getIdeaTl(), 'scene-idea');
         mainTl.add(machineStartupTl(), 'scene-machineStartup');
         mainTl.add(fillTubesTL(), 'scene-fillTubes');
-        mainTl.add(CTAtimeline(), 'scene-ctaTl')
-        mainTl.seek('scene-fillTubes+=30');
+        mainTl.add(CTAtimeline(), 'scene-ctaTl');
+//        mainTl.seek('scene-fillTubes+=30');
     } 
     init();
 })(jQuery);
