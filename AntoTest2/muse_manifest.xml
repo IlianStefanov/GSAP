@@ -1,0 +1,626 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="thecoffeeclub.com" resolutions="1x" timestamp="1515626704944">
+  <folder name="css">
+    <file name="site_global.css" crc="4275521114"/>
+    <file name="question-1.css" crc="3974824244" ref="question-1"/>
+    <file name="question-2.css" crc="308275979" ref="question-2"/>
+    <file name="who-we-are.css" crc="68431639" ref="who-we-are"/>
+    <file name="catalogue-page.css" crc="3776583356" ref="catalogue-page"/>
+    <file name="index.css" crc="3992202990" ref="index"/>
+    <file name="question-3.css" crc="180649999" ref="question-3"/>
+    <file name="product-6.css" crc="4268887444" ref="product-6"/>
+    <file name="contact-us.css" crc="3791511345" ref="contact-us"/>
+    <file name="product-10.css" crc="3881249340" ref="product-10"/>
+    <file name="product-11.css" crc="3875514722" ref="product-11"/>
+    <file name="product-5.css" crc="269727125" ref="product-5"/>
+    <file name="product-12.css" crc="155180810" ref="product-12"/>
+    <file name="product-3.css" crc="392851069" ref="product-3"/>
+    <file name="product-4.css" crc="4291313237" ref="product-4"/>
+    <file name="product-1.css" crc="426152491" ref="product-1"/>
+    <file name="product-7.css" crc="4280355372" ref="product-7"/>
+    <file name="product-9.css" crc="4019727913" ref="product-9"/>
+    <file name="product-2.css" crc="458743539" ref="product-2"/>
+    <file name="product-8.css" crc="4018805171" ref="product-8"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="museutils.js" crc="3803043152" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="whatinput.js" crc="86476730" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="museconfig.js" crc="380897831" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:question-1:question-2:question-3:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="webpro.js" crc="242022427" ref="index:contact-us"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="form_check.php" crc="147359589" ref="contact-us"/>
+    <file name="form_throttle.php" crc="93986428" ref="contact-us"/>
+    <file name="form_process.php" crc="3851993751" ref="contact-us"/>
+    <file name="form-u5233.php" crc="3810609427" ref="contact-us"/>
+    <file name="form-u5485.php" crc="415056190" ref="contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="nathan-dumlao-290152.jpg" crc="239395283" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u197-5.png" crc="3839079360" ref="index"/>
+    <file name="u208-4.png" crc="4211985550" ref="index"/>
+    <file name="393311-200 white.png" crc="77662468" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-photo-228183.jpg" crc="3886119106" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thomas-martinsen-29267.jpg" crc="4116168295" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u700-5.png" crc="3839079360" ref="index"/>
+    <file name="u773-5.png" crc="3839079360" ref="index"/>
+    <file name="u703-4.png" crc="373680258" ref="index"/>
+    <file name="u776-4.png" crc="4167478288" ref="index"/>
+    <file name="how many cups a day concept 1.jpg" crc="4115097558" ref="question-1:question-2:question-3">
+      <caption webpage="question-1" alt=""/>
+      <caption webpage="question-2" alt=""/>
+    </file>
+    <file name="u929-4.png" crc="3967211487" ref="question-1"/>
+    <file name="3.png" crc="3914329817" ref="question-1:index:who-we-are:product-1:contact-us:product-4:product-7:product-8:product-9:product-10:product-11:product-12:catalogue-page:product-2:product-3:product-5:product-6">
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us-copy" alt=""/>
+      <caption webpage="question-1" alt=""/>
+      <caption webpage="question-1" alt=""/>
+      <caption webpage="question-1" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="4.png" crc="371480696" ref="question-1:catalogue-page:product-3">
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-1" alt=""/>
+    </file>
+    <file name="5.png" crc="4015160292" ref="question-1:product-4:catalogue-page">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-1" alt=""/>
+    </file>
+    <file name="6.png" crc="443745250" ref="question-1:catalogue-page:product-5">
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-1" alt=""/>
+    </file>
+    <file name="u1461-4.png" crc="255175611" ref="question-2"/>
+    <file name="bean-2-u1486-fr.png" crc="300461099" ref="question-2"/>
+    <file name="bean-3-u1486-r-fr.png" crc="62879339" ref="question-2"/>
+    <file name="bean-4-u1502-r-fr.png" crc="3954496004" ref="question-2"/>
+    <file name="bean-5-u1513-r-fr.png" crc="195460458" ref="question-2"/>
+    <file name="u1556-4.png" crc="255175611" ref="question-3"/>
+    <file name="1.png" crc="324168188" ref="index:catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="contact-us-copy" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="2.png" crc="3804309058" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="32.png" crc="385581719" ref="catalogue-page:product-2">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="home.png" crc="4116981169" ref="catalogue-page:who-we-are:index:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="contact-us-copy" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="home 2.png" crc="3877397757" ref="catalogue-page:who-we-are:product-1:contact-us:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="contact-us-copy" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="12.png" crc="104937850" ref="question-3:catalogue-page:product-11">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+    </file>
+    <file name="33.png" crc="372334365" ref="question-3:catalogue-page:who-we-are:contact-us" seo="true">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="13.png" crc="4079114920" ref="catalogue-page:product-12">
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-12" alt=""/>
+    </file>
+    <file name="22.png" crc="342827044" ref="question-3:catalogue-page" seo="true">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="question-3" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="23.png" crc="4067599132" ref="catalogue-page:who-we-are:contact-us" seo="true">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="u2570-4.png" crc="3872280049" ref="who-we-are"/>
+    <file name="20029-200.png" crc="120220645" seo="true" ref="who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="u2592-4.png" crc="381140091" ref="who-we-are"/>
+    <file name="u2667-4.png" crc="3947137920" ref="who-we-are"/>
+    <file name="u2673-4.png" crc="316317401" ref="who-we-are"/>
+    <file name="1-u3750-fr.png" crc="149887856" ref="index"/>
+    <file name="3-u3750-r-fr.png" crc="3880765254" ref="index"/>
+    <file name="shopping-cart-icon.png" crc="4156351115" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="shopping-cart-icon orange.png" crc="107149950" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="062-512.png" crc="436493137" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="062-512 2.png" crc="4088330896" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="contact-us"/>
+    <file name="pngpix-com-arrow-png-transparent-image-1.png" crc="425952411" seo="true" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="price.png" crc="3770747533" seo="true" ref="catalogue-page:product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="u3512-4.png" crc="463933378" ref="catalogue-page"/>
+    <file name="u3527-4.png" crc="486732028" ref="catalogue-page"/>
+    <file name="u3537-4.png" crc="367389692" ref="catalogue-page"/>
+    <file name="7.png" crc="477852454" ref="catalogue-page:product-6">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-6" alt=""/>
+    </file>
+    <file name="u3588-4.png" crc="463933378" ref="catalogue-page"/>
+    <file name="u3578-4.png" crc="486732028" ref="catalogue-page"/>
+    <file name="u3568-4.png" crc="486732028" ref="catalogue-page"/>
+    <file name="8.png" crc="406725644" ref="catalogue-page:product-7">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-7" alt=""/>
+    </file>
+    <file name="9.png" crc="4112812613" ref="catalogue-page:product-8">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="10.png" crc="3815559362" ref="catalogue-page:product-9">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-9" alt=""/>
+    </file>
+    <file name="u4413-4.png" crc="250487412" ref="catalogue-page"/>
+    <file name="u4343-4.png" crc="529606681" ref="catalogue-page"/>
+    <file name="u4347-4.png" crc="435973858" ref="catalogue-page"/>
+    <file name="11.png" crc="253795282" ref="catalogue-page:product-10">
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="product-10" alt=""/>
+    </file>
+    <file name="u4299-4.png" crc="225995743" ref="catalogue-page"/>
+    <file name="u4400-4.png" crc="225995743" ref="catalogue-page"/>
+    <file name="u4321-4.png" crc="225995743" ref="catalogue-page"/>
+    <file name="1-u5137-fr.png" crc="4245424628" ref="who-we-are"/>
+    <file name="3-u5137-r-fr.png" crc="3961193439" ref="who-we-are"/>
+    <file name="1-u5134-fr.png" crc="3877292148" ref="who-we-are"/>
+    <file name="photo-1429681601148-75510b2cef43.jpg" crc="4028465291" ref="who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="u2577-11.png" crc="446324022" ref="who-we-are"/>
+    <file name="u2598-6.png" crc="503799854" ref="who-we-are"/>
+    <file name="photo-1463797221720-6b07e6426c24.jpg" crc="334379846" ref="who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="photo-1414808549009-35951c724e9f.jpg" crc="183765546" ref="who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="photo-1442411210769-b95c4632195e.jpg" crc="28898382" ref="who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+    </file>
+    <file name="u2682-7.png" crc="8075872" ref="who-we-are"/>
+    <file name="300703011_0_640x640-u2793.png" crc="477800402" ref="product-1"/>
+    <file name="u2838-6.png" crc="253548106" ref="product-1"/>
+    <file name="u2847-6.png" crc="4110584762" ref="product-1"/>
+    <file name="u3429-4.png" crc="463933378" ref="product-1"/>
+    <file name="u3365-4.png" crc="3991811042" ref="product-1"/>
+    <file name="u3371-4.png" crc="4154330986" ref="product-1"/>
+    <file name="u3368-4.png" crc="519790564" ref="product-1"/>
+    <file name="u3374-4.png" crc="3857724424" ref="product-1"/>
+    <file name="shopping-cart-icon white.png" crc="3930492925" seo="true" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12">
+      <caption webpage="product-4" alt=""/>
+      <caption webpage="product-10" alt=""/>
+      <caption webpage="product-6" alt=""/>
+      <caption webpage="product-9" alt=""/>
+      <caption webpage="product-5" alt=""/>
+      <caption webpage="product-1" alt=""/>
+      <caption webpage="product-3" alt=""/>
+      <caption webpage="product-7" alt=""/>
+      <caption webpage="product-2" alt=""/>
+      <caption webpage="product-12" alt=""/>
+      <caption webpage="product-11" alt=""/>
+      <caption webpage="product-8" alt=""/>
+    </file>
+    <file name="u2812-4.png" crc="118986289" ref="product-1"/>
+    <file name="u5175-4.png" crc="177576097" ref="contact-us"/>
+    <file name="photo-1501339847302-ac426a4a7cbb.jpg" crc="287438184" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us-copy" alt=""/>
+    </file>
+    <file name="photo-1482242248426-c4e9fe3a559a.jpg" crc="4143065172" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="u5237.png" crc="402207685" ref="contact-us"/>
+    <file name="u5237-ferr.png" crc="3942938832" ref="contact-us"/>
+    <file name="u5244.png" crc="3976277758" ref="contact-us"/>
+    <file name="u5244-ferr.png" crc="3959248410" ref="contact-us"/>
+    <file name="u5234.png" crc="477972972" ref="contact-us"/>
+    <file name="u5234-r.png" crc="21396933" ref="contact-us"/>
+    <file name="u5247.png" crc="3962544212" ref="contact-us"/>
+    <file name="u5247-ferr.png" crc="525987560" ref="contact-us"/>
+    <file name="u5486.png" crc="3974996440" ref="contact-us"/>
+    <file name="u5486-r.png" crc="186731550" ref="contact-us"/>
+    <file name="u3906-8.png" crc="245848306" ref="product-2"/>
+    <file name="u3926-4.png" crc="3872211346" ref="product-2"/>
+    <file name="u3924-4.png" crc="486732028" ref="product-2"/>
+    <file name="u3917-4.png" crc="3991811042" ref="product-2"/>
+    <file name="u3930-4.png" crc="458238590" ref="product-2"/>
+    <file name="u3923-4.png" crc="519790564" ref="product-2"/>
+    <file name="u3911-4.png" crc="3857724424" ref="product-2"/>
+    <file name="u3914-4.png" crc="118986289" ref="product-2"/>
+    <file name="u3998-8.png" crc="3786647606" ref="product-3"/>
+    <file name="u4012-6.png" crc="25052173" ref="product-3"/>
+    <file name="u3990-4.png" crc="367389692" ref="product-3"/>
+    <file name="u4006-4.png" crc="3991811042" ref="product-3"/>
+    <file name="u3997-4.png" crc="3975834936" ref="product-3"/>
+    <file name="u4005-4.png" crc="519790564" ref="product-3"/>
+    <file name="u3999-4.png" crc="3857724424" ref="product-3"/>
+    <file name="u4008-4.png" crc="118986289" ref="product-3"/>
+    <file name="u4061-8.png" crc="4143961512" ref="product-4"/>
+    <file name="u4079-4.png" crc="383441694" ref="product-4"/>
+    <file name="u4087-4.png" crc="463933378" ref="product-4"/>
+    <file name="u4080-4.png" crc="3991811042" ref="product-4"/>
+    <file name="u4075-4.png" crc="3975834936" ref="product-4"/>
+    <file name="u4073-4.png" crc="519790564" ref="product-4"/>
+    <file name="u4070-4.png" crc="3857724424" ref="product-4"/>
+    <file name="u4083-4.png" crc="118986289" ref="product-4"/>
+    <file name="u4187-8.png" crc="197499270" ref="product-5"/>
+    <file name="u4175-4.png" crc="358293978" ref="product-5"/>
+    <file name="u4174-4.png" crc="486732028" ref="product-5"/>
+    <file name="u4186-4.png" crc="3991811042" ref="product-5"/>
+    <file name="u4191-4.png" crc="4268120094" ref="product-5"/>
+    <file name="u4178-4.png" crc="519790564" ref="product-5"/>
+    <file name="u4170-4.png" crc="3857724424" ref="product-5"/>
+    <file name="u4181-4.png" crc="118986289" ref="product-5"/>
+    <file name="u4259-8.png" crc="4248530181" ref="product-6"/>
+    <file name="u4268-4.png" crc="3830416829" ref="product-6"/>
+    <file name="u4242-4.png" crc="486732028" ref="product-6"/>
+    <file name="u4257-4.png" crc="3991811042" ref="product-6"/>
+    <file name="u4247-4.png" crc="3902265091" ref="product-6"/>
+    <file name="u4265-4.png" crc="519790564" ref="product-6"/>
+    <file name="u4255-4.png" crc="3857724424" ref="product-6"/>
+    <file name="u4261-4.png" crc="118986289" ref="product-6"/>
+    <file name="u4565-8.png" crc="4115882161" ref="product-7"/>
+    <file name="u4561-4.png" crc="4240483684" ref="product-7"/>
+    <file name="u4569-4.png" crc="250487412" ref="product-7"/>
+    <file name="u4555-4.png" crc="3991811042" ref="product-7"/>
+    <file name="u4558-4.png" crc="139675534" ref="product-7"/>
+    <file name="u4556-4.png" crc="519790564" ref="product-7"/>
+    <file name="u4568-4.png" crc="3857724424" ref="product-7"/>
+    <file name="u4576-4.png" crc="118986289" ref="product-7"/>
+    <file name="u4682-8.png" crc="4185508441" ref="product-8"/>
+    <file name="u4672-4.png" crc="3814004569" ref="product-8"/>
+    <file name="u4679-4.png" crc="529606681" ref="product-8"/>
+    <file name="u4680-4.png" crc="3991811042" ref="product-8"/>
+    <file name="u4664-4.png" crc="227927893" ref="product-8"/>
+    <file name="u4666-4.png" crc="519790564" ref="product-8"/>
+    <file name="u4681-4.png" crc="3857724424" ref="product-8"/>
+    <file name="u4661-4.png" crc="118986289" ref="product-8"/>
+    <file name="u4779-8.png" crc="449645363" ref="product-9"/>
+    <file name="u4772-4.png" crc="3785981630" ref="product-9"/>
+    <file name="u4758-4.png" crc="435973858" ref="product-9"/>
+    <file name="u4776-4.png" crc="3991811042" ref="product-9"/>
+    <file name="u4753-4.png" crc="227927893" ref="product-9"/>
+    <file name="u4757-4.png" crc="519790564" ref="product-9"/>
+    <file name="u4780-4.png" crc="3857724424" ref="product-9"/>
+    <file name="u4768-4.png" crc="118986289" ref="product-9"/>
+    <file name="u4805-8.png" crc="4020912708" ref="product-10"/>
+    <file name="u4807-4.png" crc="4262202953" ref="product-10"/>
+    <file name="u4806-4.png" crc="225995743" ref="product-10"/>
+    <file name="u4818-4.png" crc="3991811042" ref="product-10"/>
+    <file name="u4808-4.png" crc="227927893" ref="product-10"/>
+    <file name="u4792-4.png" crc="519790564" ref="product-10"/>
+    <file name="u4800-4.png" crc="3857724424" ref="product-10"/>
+    <file name="u4796-4.png" crc="118986289" ref="product-10"/>
+    <file name="u4924-8.png" crc="449645363" ref="product-11"/>
+    <file name="u4921-4.png" crc="4087245257" ref="product-11"/>
+    <file name="u4904-4.png" crc="225995743" ref="product-11"/>
+    <file name="u4907-4.png" crc="3991811042" ref="product-11"/>
+    <file name="u4899-4.png" crc="227927893" ref="product-11"/>
+    <file name="u4898-4.png" crc="519790564" ref="product-11"/>
+    <file name="u4905-4.png" crc="3857724424" ref="product-11"/>
+    <file name="u4912-4.png" crc="118986289" ref="product-11"/>
+    <file name="u4993-8.png" crc="4263718179" ref="product-12"/>
+    <file name="u4971-4.png" crc="55808812" ref="product-12"/>
+    <file name="u4972-4.png" crc="225995743" ref="product-12"/>
+    <file name="u4981-4.png" crc="3991811042" ref="product-12"/>
+    <file name="u4968-4.png" crc="227927893" ref="product-12"/>
+    <file name="u4980-4.png" crc="519790564" ref="product-12"/>
+    <file name="u4977-4.png" crc="3857724424" ref="product-12"/>
+    <file name="u4991-4.png" crc="118986289" ref="product-12"/>
+    <file name="3-u5545-fr.png" crc="3997113919" ref="index"/>
+    <file name="2-u5545-r-fr.png" crc="4213591239" ref="index"/>
+    <file name="3-u5579-fr.png" crc="3981487598" ref="catalogue-page:who-we-are"/>
+    <file name="2-u5579-r-fr.png" crc="4245163117" ref="catalogue-page:who-we-are"/>
+    <file name="14.png" crc="3821047552" seo="true" ref="catalogue-page:contact-us:who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="42.png" crc="4275613367" seo="true" ref="catalogue-page:contact-us:who-we-are">
+      <caption webpage="who-we-are" alt=""/>
+      <caption webpage="catalogue-page" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="15.png" crc="3937441059" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="3-u3753-fr.png" crc="4060508308" ref="index"/>
+    <file name="2-u3753-r-fr.png" crc="454830687" ref="index"/>
+    <file name="3-u3728-fr.png" crc="166091775" ref="catalogue-page"/>
+    <file name="2-u3728-r-fr.png" crc="145162096" ref="catalogue-page"/>
+    <file name="1-u3351-fr.png" crc="149887856" ref="contact-us"/>
+    <file name="3-u3351-r-fr.png" crc="3880765254" ref="contact-us"/>
+    <file name="3-u3348-fr.png" crc="4060508308" ref="contact-us"/>
+    <file name="2-u3348-r-fr.png" crc="454830687" ref="contact-us"/>
+    <file name="u3807-4.png" crc="4196807762" ref="catalogue-page"/>
+    <file name="pngpix-com-arrow-png-transparent-image-1-u3810-fr.png" crc="3885962926" ref="catalogue-page"/>
+    <file name="pngpix-com-arrow-png-transparent-image-1 2.png" crc="439189783" ref="catalogue-page">
+      <caption webpage="catalogue-page" alt=""/>
+    </file>
+    <file name="3-u3320-fr.png" crc="4060508308" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="2-u3320-r-fr.png" crc="454830687" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="3-u5592-fr.png" crc="3981487598" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+    <file name="2-u5592-r-fr.png" crc="4245163117" ref="product-1:product-2:product-3:product-4:product-5:product-6:product-7:product-8:product-9:product-10:product-11:product-12"/>
+  </folder>
+  <file name="index.html" crc="403296950" seo="true" mt="1515623699815" redirect="true"/>
+  <file name="question-1.html" crc="3914079938" seo="true" mt="1515623366805" redirect="true"/>
+  <file name="question-2.html" crc="526968318" seo="true" mt="1515623577745" redirect="true"/>
+  <file name="question-3.html" crc="3940843798" seo="true" mt="1515588111303" redirect="true"/>
+  <file name="catalogue-page.html" crc="3832748818" seo="true" mt="1515626435760" redirect="true"/>
+  <file name="who-we-are.html" crc="338567239" seo="true" mt="1515625749915" redirect="true"/>
+  <file name="product-1.html" crc="4079408294" seo="true" mt="1515626603771" redirect="true"/>
+  <file name="contact-us.html" crc="475092620" seo="true" mt="1515626166640" redirect="true"/>
+  <file name="product-2.html" crc="3838059325" seo="true" mt="1515626624729" redirect="true"/>
+  <file name="product-3.html" crc="4188328692" seo="true" mt="1515626631604" redirect="true"/>
+  <file name="product-4.html" crc="4092173572" seo="true" mt="1515626637971" redirect="true"/>
+  <file name="product-5.html" crc="240717100" seo="true" mt="1515626646237" redirect="true"/>
+  <file name="product-6.html" crc="4187586183" seo="true" mt="1515626653580" redirect="true"/>
+  <file name="product-7.html" crc="3963197140" seo="true" mt="1515626660185" redirect="true"/>
+  <file name="product-8.html" crc="353393787" seo="true" mt="1515626668432" redirect="true"/>
+  <file name="product-9.html" crc="337321984" seo="true" mt="1515626674526" redirect="true"/>
+  <file name="product-10.html" crc="3832792940" seo="true" mt="1515626680259" redirect="true"/>
+  <file name="product-11.html" crc="271246384" seo="true" mt="1515626686126" redirect="true"/>
+  <file name="product-12.html" crc="396213643" seo="true" mt="1515626693404" redirect="true"/>
+</manifest>
